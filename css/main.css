@@ -78,7 +78,6 @@ ul.posts li {
     position: relative;
     float: right;
 }
-
 .marki{
     font-family: 'Consolas';
 }
@@ -99,4 +98,13 @@ ul {
     color: #333;
     text-align: justify;
     text-justify: inter-word;
+}
+#ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .6);
+    z-index: 1001;
 }
